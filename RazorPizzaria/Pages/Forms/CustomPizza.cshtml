@@ -1,0 +1,46 @@
+﻿@page
+
+@model RazorPizzaria.Pages.Forms.CustomPizzModel
+
+@{
+
+}
+
+<div class="text-center container">
+
+    <h1 class="">Create Your Own Pizza</h1>
+
+    <form method="post" >
+
+        <input type="text" asp-for=pizzas.PizzaName class="form-control" placeholder="let's give your Pizza an awesome name .." />        
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Beef class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Beef ?" /> Beef ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Cheese class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Cheese ?" />Cheese ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Checken class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Checken ?" />Checken ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Mushroom class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Mushroom ?" />Mushroom ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Pineapple class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Pineapple ?" />Pineapple ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Peperoni class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Peperoni ?" />Peperoni ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.TomatoSauce class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Tomato Sauce ?" />Tomato Sauce ?
+        <br />
+        
+        <input type="checkbox" asp-for=pizzas.Tuna class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-3 alert-light col-4" placeholder="Tuna ?" />Tuna ?
+        <br />
+        
+        <button class="btn btn-primary mt-1 pr-5 pl-5 pt-1 pb-2" type="submit">Order My Pizza</button>
+
+    </form>
+
+</div>

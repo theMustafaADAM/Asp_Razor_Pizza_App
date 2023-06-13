@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mainText {
+    padding: 55px 20px;
+}
+
+.mainImage {
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 10px rgba(0 0 0 0.3));
+    margin: 40px
+}
+
+.smallText {
+    text-align: right;
+    color: gray;
+}
+
+.makeYourOwnDiv {
+
+    background-color: gray;
+    margin:0;
+}
+
+.makeYourOwnText {
+
+    margin: 100px 0 20px 0;
+    color: white ;
+}
+
+.ds-flex {
+    display:flex
+}
+.ds-inflex {
+    display: inline-flex
+}
+.ds-ingrid{
+    display:inline-grid
+}
+
+.PizzaImg:hover {
+    transform: scale(1.05)
+}
